@@ -19,4 +19,3 @@ public class BeerSelect extends HttpServlet {
         view.forward(request, response);
     }
 }
-}
