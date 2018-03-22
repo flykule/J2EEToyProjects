@@ -6,6 +6,7 @@
 * BeerExpert负责获取相应的Beer推荐的建议，用于获取数据
 * form.html是负责提供一个简单的下来菜单供用户选择与提交
 ## 结构
+```
 beerV1
 ├── classes
 │   └── com
@@ -27,4 +28,5 @@ beerV1
 └── web
     ├── form.html
     └── result.jsp
+```
 
