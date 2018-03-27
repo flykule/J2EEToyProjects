@@ -6,7 +6,7 @@ import java.io.*;
 import com.example.entity.*;
 
 public class ListenerTester extends HttpServlet {
-    public void doPost(HttpServletRequest request,
+    public void doGet(HttpServletRequest request,
                        HttpServletResponse response)
     throws IOException, ServletException {
         response.setContentType("text/html");
