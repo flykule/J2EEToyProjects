@@ -5,14 +5,14 @@ import javax.servlet.http.*;
 import java.util.*;
 import java.io.*;
 
-public class TipSelect extends HttpServlet {
+public class MovieServlet extends HttpServlet {
     public void doPost(HttpServletRequest request,
                        HttpServletResponse response)
     throws IOException, ServletException {
-        String c = "<b></b> tags make things bold!";
-
-        request.setAttribute("currentTip", c);
-        RequestDispatcher view = request.getRequestDispatcher("tip.jsp");
+        String[] list = {"Amelie","Return of the King","Mean Girls"};
+        
+        request.setAttribute("movieList", list);
+        RequestDispatcher view = request.getRequestDispatcher("movieList.jsp");
         view.forward(request, response);
     }
 

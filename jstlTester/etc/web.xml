@@ -18,5 +18,14 @@
         <url-pattern>/Tip.do</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>MovieServlet</servlet-name>
+        <servlet-class>com.example.web.MovieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MovieServlet</servlet-name>
+        <url-pattern>/Movie.do</url-pattern>
+    </servlet-mapping>
 </web-app>
 
