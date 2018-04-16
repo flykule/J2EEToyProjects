@@ -7,13 +7,14 @@
         <h1 align="center">Movie List</h1>
         <p>
         <table>
-            <% String[] items = (String[])request.getAttribute("movieList");
-            String val=null;
-            for(int i = 0;i<items.length;++i){
-            var = items[i];
-            %>
-            <tr><td><%= var%></td></tr>
-            <% } %>
+            <c:forEach items="${movieList}" var="movie" varStatus="movieLoopCount">
+                <tr>
+                    <td>movie: ${movieLoopCount.count}</td>
+                </tr>
+                <tr>
+                    <td>${movie}</td>
+                </tr>
+            </c:forEach>
         </table>
         </p>
     </body>
