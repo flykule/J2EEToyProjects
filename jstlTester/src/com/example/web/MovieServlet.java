@@ -10,8 +10,12 @@ public class MovieServlet extends HttpServlet {
                        HttpServletResponse response)
     throws IOException, ServletException {
         String[] list = {"Amelie","Return of the King","Mean Girls"};
+        String[] list2 = {"Matrix Revolutions","Kill Bill","Boondock Skins"};
         
-        request.setAttribute("movieList", list);
+        List<String[]> arrayList = new ArrayList<>();
+        arrayList.add(list);
+        arrayList.add(list2);
+        request.setAttribute("arrayList", arrayList);
         RequestDispatcher view = request.getRequestDispatcher("movieList.jsp");
         view.forward(request, response);
     }

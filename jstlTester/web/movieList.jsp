@@ -7,13 +7,12 @@
         <h1 align="center">Movie List</h1>
         <p>
         <table>
-            <c:forEach items="${movieList}" var="movie" varStatus="movieLoopCount">
-                <tr>
-                    <td>movie: ${movieLoopCount.count}</td>
-                </tr>
-                <tr>
-                    <td>${movie}</td>
-                </tr>
+            <c:forEach items="${arrayList}" var="movies">
+                <c:forEach items="${movies}" var="movie">
+                    <tr>
+                        <td>${movie}</td>
+                    </tr>
+                </c:forEach>
             </c:forEach>
         </table>
         </p>
