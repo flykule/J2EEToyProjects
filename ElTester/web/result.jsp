@@ -4,7 +4,7 @@
     <body>
         <h1 align="center">El tester</h1>
         <p>
-        Music is: ${musicList}
+        Music is: ${musicList["1"]}
         </p>
     </body>
 </html>
