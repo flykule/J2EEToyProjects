@@ -9,26 +9,6 @@
     </description>
 
     <servlet>
-        <servlet-name>TipSelector</servlet-name>
-        <servlet-class>com.example.web.TipSelect</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>TipSelector</servlet-name>
-        <url-pattern>/Tip.do</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>MovieServlet</servlet-name>
-        <servlet-class>com.example.web.MovieServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>MovieServlet</servlet-name>
-        <url-pattern>/Movie.do</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
         <servlet-name>IncludeJsp</servlet-name>
         <jsp-file>/include.jsp</jsp-file>
     </servlet>
