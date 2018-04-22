@@ -5,6 +5,12 @@
 <%@ taglib prefix="myTags" tagdir="/WEB-INF/tags" %>
 <html>
     <body>
-        <myTags:Header subTitle="What the hell"/>
+        <myTags:Header fontColor="#ff6969">
+            身在福中不知福
+            身在福中不知福
+            身在福中不知福
+            身在福中不知福
+            身在福中不知福
+        </myTags:Header>
     </body>
 </html>
