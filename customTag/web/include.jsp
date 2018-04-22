@@ -5,6 +5,6 @@
 <%@ taglib prefix="myTags" tagdir="/WEB-INF/tags" %>
 <html>
     <body>
-        <myTags:Header/>
+        <myTags:Header subTitle="What the hell"/>
     </body>
 </html>
