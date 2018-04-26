@@ -5,6 +5,6 @@
         <description>worst use of a custom simple tag</description>
         <name>simple1</name>
         <tag-class>com.example.tag.SimpleTagTest</tag-class>
-        <body-content>empty</body-content>
+        <body-content>scriptless</body-content>
     </tag>
 </taglib>
