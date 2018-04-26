@@ -17,5 +17,15 @@
         <servlet-name>IncludeJsp</servlet-name>
         <url-pattern>/include</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SimpleTest</servlet-name>
+        <jsp-file>/simpleTag.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SimpleTest</servlet-name>
+        <url-pattern>/simple</url-pattern>
+    </servlet-mapping>
 </web-app>
 
