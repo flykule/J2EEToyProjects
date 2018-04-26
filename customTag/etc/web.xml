@@ -27,5 +27,15 @@
         <servlet-name>SimpleTest</servlet-name>
         <url-pattern>/simple</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SimpleTest2</servlet-name>
+        <jsp-file>/simpleTag2.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SimpleTest2</servlet-name>
+        <url-pattern>/simple2</url-pattern>
+    </servlet-mapping>
 </web-app>
 

@@ -7,4 +7,10 @@
         <tag-class>com.example.tag.SimpleTagTest</tag-class>
         <body-content>scriptless</body-content>
     </tag>
+    <tag>
+        <description>set attribute in tag handler</description>
+        <name>simple2</name>
+        <tag-class>com.example.tag.SimpleTagTest2</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
 </taglib>
