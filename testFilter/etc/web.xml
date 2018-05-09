@@ -8,6 +8,15 @@
     <description>
     </description>
 
+    <filter>
+        <filter-name>
+            CompressionFilter
+        </filter-name>
+        <filter-class>
+            com.example.web.CompressionFilter
+        </filter-class>
+    </filter>
+
     <servlet>
         <servlet-name>TipSelector</servlet-name>
         <servlet-class>com.example.web.TipSelect</servlet-class>
@@ -18,5 +27,11 @@
         <url-pattern>/Tip.do</url-pattern>
     </servlet-mapping>
 
+    <filter-mapping>
+        <filter-name>
+            CompressionFilter
+        </filter-name>
+        <servlet-name>TipSelector</servlet-name>
+    </filter-mapping>
 </web-app>
 

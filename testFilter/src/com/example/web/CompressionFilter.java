@@ -11,6 +11,8 @@ public class CompressionFilter implements Filter {
 
     public void init(FilterConfig cfg){
         this.cfg = cfg;
+        ctx = cfg.getServletContext();
+        ctx.log(cfg.getFilterName() + "initialized");
     }
 
     public void doFilter(ServletRequest req,
